@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center-row {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: #f1f1f1;
+  color: #f1f1f1;
+  min-height: 100vw;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
